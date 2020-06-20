@@ -1,0 +1,54 @@
+.hero-container {
+  background-color: #000;
+  background-image: url('./gmapsinworkout.png');
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  // background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .hero-text-container {
+    // width: 984px;
+    // height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // z-index: 100;
+    // position: absolute;
+    
+    .hero-text {
+      text-align: center;
+      color: #FFF;
+      font-size: 4vw;
+      font-weight: 600;
+      margin: 0;
+    }
+
+  }
+
+  .hero-btn-container {
+    // height: 56px;
+    // width: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    .hero-btn {
+      height: 56px;
+      width: 392px;
+      background-color: #0069D2;
+      color: #FFF;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+  }
+
+}
