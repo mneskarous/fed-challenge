@@ -8,10 +8,10 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <div className="product-nav-container">
+      <div className="product-nav-component-container">
         <ProductNav />
       </div>
-      <div className="main-nav-container">
+      <div className="main-nav-component-container">
         <MainNav />
       </div>
     </div>
