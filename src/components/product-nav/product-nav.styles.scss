@@ -1,0 +1,24 @@
+.product-nav-links-container {
+  height: 47px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D5D6D6;
+}
+
+.product-nav-link-container {
+  border-right: 1px solid #D5D6D6;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+button.product-nav-link-btn {
+  border: none;
+  background-color: #FFF;
+  color: #585a5c;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 16px;
+}
