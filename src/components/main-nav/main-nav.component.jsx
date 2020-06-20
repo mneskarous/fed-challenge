@@ -3,7 +3,7 @@ import React from 'react';
 import './main-nav.styles.scss';
 
 const MainNav = () => (
-  <div className="main-nav-items-container">
+  <div className="main-nav-container">
     <div className="main-nav-logo-container">
       <img src="./images/ifit-coach-logo.svg" alt="iFit Coach Logo"/>
     </div>

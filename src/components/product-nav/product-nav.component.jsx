@@ -3,15 +3,15 @@ import React from 'react';
 import './product-nav.styles.scss'
 
 const ProductNav = () => (
-  <div className="product-nav-links-container">
-    <div className="product-nav-link-btn-container">
-      <button className="product-nav-link-btn">Blog</button>
+  <div className="product-nav-container">
+    <div className="product-nav-link-container">
+      <button className="product-nav-link">Blog</button>
     </div>
-    <div className="product-nav-link-btn-container">
-      <button className="product-nav-link-btn">Nourish</button>
+    <div className="product-nav-link-container">
+      <button className="product-nav-link">Nourish</button>
     </div>
-    <div className="product-nav-link-btn-container">
-      <button className="product-nav-link-btn">Shop</button>
+    <div className="product-nav-link-container">
+      <button className="product-nav-link">Shop</button>
     </div>
   </div>
 );

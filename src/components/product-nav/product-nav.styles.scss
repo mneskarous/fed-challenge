@@ -1,17 +1,17 @@
-.product-nav-links-container {
+.product-nav-container {
   height: 47px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #D5D6D6;
 
-  .product-nav-link-btn-container {
+  .product-nav-link-container {
     border-right: 1px solid #D5D6D6;
     height: 46px;
     display: flex;
     align-items: center;
     padding: 16px 41px;
 
-    button.product-nav-link-btn {
+    button.product-nav-link {
       border: none;
       background-color: #FFF;
       color: #585A5C;
@@ -20,7 +20,7 @@
       cursor: pointer;
       padding: 1px;
     }
-    
+
   }
 
 }
