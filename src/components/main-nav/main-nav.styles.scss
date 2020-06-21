@@ -18,12 +18,13 @@
   
     .main-nav-link {
       border: none;
+      padding: 1px;
       background-color: #FFF;
       color: #585A5C;
       font-size: 14px;
       text-transform: uppercase;
       cursor: pointer;
-      padding: 1px;
+      outline: none;
     }
     
   }
