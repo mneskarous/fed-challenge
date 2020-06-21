@@ -22,7 +22,7 @@ function App() {
       <div className="hero-component-container">
         <Hero />
       </div>
-      <div className="hero-component-container">
+      <div className="media-slider-component-container">
         <MediaSlider />
       </div>
       <div className="desktop-library-component-container">
