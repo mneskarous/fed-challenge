@@ -6,6 +6,7 @@ import Hero from './components/hero/hero.component';
 import MediaSlider from './components/media-slider/media-slider.component';
 import DesktopLibrary from './components/desktop-library/desktop-library.component';
 import EquipmentSelection from './components/equipment-selection/equipment-selection.component';
+import Footer from './components/footer/footer.component';
 
 import './App.scss';
 
@@ -29,6 +30,9 @@ function App() {
       </div>
       <div className="equipment-selection-component-container">
         <EquipmentSelection />
+      </div>
+      <div className="footer-component-container">
+        <Footer />
       </div>
     </div>
   );
