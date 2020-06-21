@@ -3,6 +3,7 @@ import React from 'react';
 import ProductNav from './components/product-nav/product-nav.component'
 import MainNav from './components/main-nav/main-nav.component';
 import Hero from './components/hero/hero.component';
+import MediaSlider from './components/media-slider/media-slider.component';
 
 import './App.scss';
 
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="hero-component-container">
         <Hero />
+      </div>
+      <div className="hero-component-container">
+        <MediaSlider />
       </div>
     </div>
   );

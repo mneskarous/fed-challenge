@@ -1,0 +1,59 @@
+.media-card-container {
+  background-color: #F4F5F7;
+  height: 232px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+
+  .media-card {
+    width: 440px;
+    height: 184px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(46, 49, 52, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+      margin: 16px 40px;
+      color: #585A5C;
+      font-size: 15px;
+    }
+
+  }
+
+  .media-slider-controller {
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .arrow-container {
+      height: 40px;
+      width: 40px;
+      background-color: #000C28;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 7px 12px rgba(46, 49, 52, 0.3);
+      cursor: pointer;
+    }
+
+    .left.arrow-container {
+      margin-left: 6px;
+    }
+
+    .right.arrow-container {
+      margin-right: 6px;
+    }
+
+  }
+
+}
