@@ -14,10 +14,12 @@
   display: grid;
   gap: 24px 24px;
   justify-items: center;
+  justify-content: center;
 
   @include breakpoint(sm) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
   }
 
   @include breakpoint(md) {
