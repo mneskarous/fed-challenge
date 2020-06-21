@@ -2,7 +2,7 @@
   @if $size == sm {
     @media (max-width: 700px) { @content; }
   }
-  @if $size == lg {
+  @else if $size == lg {
     @media (min-width: 701px) { @content; }
   }
 }
