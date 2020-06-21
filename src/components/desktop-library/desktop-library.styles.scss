@@ -1,0 +1,107 @@
+.desktop-library-container {
+  height: 584px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: min-content;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px 24px;
+
+  .desktop-library-item:first-child {
+    box-shadow: 0px 7px 12px rgba(46, 49, 52, 0.3);
+  }
+  .desktop-library-item {
+    width: 288px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(46, 49, 52, 0.3);
+    position: relative;
+    cursor: pointer;
+    
+    .playlist {
+      position: absolute;
+      z-index: 10;
+      background-color: rgba(0, 12, 40, 0.54);
+      width: 112px;
+      height: 164px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      top: 0px;
+      left: 177px;
+      border-radius: 0 5px 0 0;
+
+      .number {
+        color: #FFf;
+      }
+
+      .workout-text {
+        color: #FFF;
+        font-size: 10px;
+      }
+
+    }
+    
+    .title-and-avatar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 11px 0 8px 0;
+
+      
+
+      .title {
+        font-size: 14px;
+        font-weight: 600;
+        width: 220px;
+        margin-left: 16px;
+      }
+  
+      .avatar-image {
+        width: 28px;
+        margin-right: 16px;
+      }
+
+    }
+    
+    .time-and-distance {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+
+      .timer-image, .distance-image {
+        width: 12px;
+      }
+
+      .timer-image {
+        margin: 0 4px 0 16px;
+      }
+      
+      .distance-image {
+        margin: 0 4px 0 8px;
+      }
+
+      .time, .distance {
+        font-size: 10px;
+        font-weight: 600;
+      }
+
+    }
+
+    .view-details-btn {
+      width: 99px;
+      height: 16px;
+      padding: 0px;
+      margin-left: 16px;
+      background-color: #FFF;
+      color: #2869CB;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 14px;
+      outline: none;
+    }
+
+  }
+
+}
