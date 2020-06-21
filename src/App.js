@@ -5,6 +5,7 @@ import MainNav from './components/main-nav/main-nav.component';
 import Hero from './components/hero/hero.component';
 import MediaSlider from './components/media-slider/media-slider.component';
 import DesktopLibrary from './components/desktop-library/desktop-library.component';
+import EquipmentSelection from './components/equipment-selection/equipment-selection.component';
 
 import './App.scss';
 
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div className="desktop-library-component-container">
         <DesktopLibrary />
+      </div>
+      <div className="equipment-selection-component-container">
+        <EquipmentSelection />
       </div>
     </div>
   );
