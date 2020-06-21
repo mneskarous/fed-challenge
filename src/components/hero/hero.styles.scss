@@ -44,4 +44,22 @@
 
   }
 
+  @keyframes flickerAnimation {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+    -webkit-animation: flickerAnimation 4s;
+    -moz-animation: flickerAnimation 4s;
+    animation: flickerAnimation 4s;
+  }
+
 }
