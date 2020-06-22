@@ -1,19 +1,18 @@
 .hero-container {
   background-color: #000;
   background-image: url('./gmapsinworkout.png');
-  width: 100vw;
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  padding-top: 55.625%;
+  
 
   .hero-text-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -38%;
     
     .hero-text {
       text-align: center;
@@ -29,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 5%;
 
     .hero-btn {
       height: 56px;
