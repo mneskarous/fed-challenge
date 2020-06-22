@@ -28,14 +28,14 @@ function EquipmentSelection() {
         className={`equipment-card fade-in-section ${isVisible ? 'is-visible' : ''}`}
         ref={domRef}
       >
-      <img className="equipment-image" src="./images/bikes.png" alt="Bikes"/>
+        <img className="equipment-image" src="./images/bikes.png" alt="Bikes"/>
         <div className="equipment-title">Bikes</div>
       </div>
       <div 
         className={`equipment-card fade-in-section ${isVisible ? 'is-visible' : ''}`}
         ref={domRef}
       >
-      <img className="equipment-image" src="./images/ellipticals.png" alt="Ellipticals"/>
+        <img className="equipment-image" src="./images/ellipticals.png" alt="Ellipticals"/>
         <div className="equipment-title">Ellipticals</div>
       </div>
       <div 
@@ -52,24 +52,3 @@ function EquipmentSelection() {
 }
 
 export default EquipmentSelection;
-
-
-function FadeInSection(props) {
-  const [isVisible, setVisible] = React.useState(true);
-  const domRef = React.useRef();
-  React.useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => setVisible(entry.isIntersecting));
-    });
-    observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
-  }, []);
-  return (
-    <div
-      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-      ref={domRef}
-    >
-      {props.children}
-    </div>
-  );
-}
